@@ -134,18 +134,18 @@ void testApp::audioRequested(float *output, int bufferSize, int nChannels){
 			
 			// we have no characters left, just send nil
 		} else {
-            mousePressed(0, 0, 0);
-            
-			for(int bit=0; bit<kBitsPerChar; bit++) {
-				for(int rep = 0; rep<kSampleRepeatCount; rep++) {
-					output[index*2]			=
-					audioBuffer[index*2]	= 
-					
-					output[index*2+1]		= 
-					audioBuffer[index*2+1]	= 0;
-					index++;
-				}
-			}
+//            mousePressed(0, 0, 0);
+//            
+//			for(int bit=0; bit<kBitsPerChar; bit++) {
+//				for(int rep = 0; rep<kSampleRepeatCount; rep++) {
+//					output[index*2]			=
+//					audioBuffer[index*2]	= 
+//					
+//					output[index*2+1]		= 
+//					audioBuffer[index*2+1]	= 0;
+//					index++;
+//				}
+//			}
 			
 		}
 	}
